@@ -108,3 +108,22 @@ ul.info-blocks {
 li > p {
   text-align: center;
 }
+
+section.quote-section{
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    background-color: #e5e7eb;
+}
+
+p.quote-description{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-author{
+    text-align: end;
+    font-weight: bold;
+}
