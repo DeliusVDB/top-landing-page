@@ -9,6 +9,12 @@ body {
 }
 
 .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container-info,
+.container-quote {
   width: 1100px;
   margin: 0 auto;
 }
@@ -59,8 +65,17 @@ div.right-content {
 }
 
 img.hero-image {
-  background-color: gray;
-  padding: 100px;
+  height: auto;
+  width: 500px;
+  border-radius: 25px;
+  transition-duration: 500ms;
+  transition-property: width;
+}
+
+img.hero-image:hover {
+  width: 600px;
+  transition-duration: 500ms;
+  transition-property: width;
 }
 
 button.hero-button {
@@ -163,4 +178,14 @@ section.cta {
   color: white;
   font-weight: bold;
   font-size: 16px;
+}
+
+footer {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.heart {
+  font-size: 24px;
+  color: #e00;
 }
